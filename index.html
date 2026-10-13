@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishnu Karthikeya — Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">VK<span>.</span></a>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact" class="nav-btn">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <span class="greeting">Hi, I'm Vishnu Karthikeya 👋</span>
+                <h1>Building Software & Robotics</h1>
+                <p>A passionate developer bridging code and hardware through web development, programming, and robotics engineering.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn primary-btn">View Projects</a>
+                    <a href="#contact" class="btn secondary-btn">Let's Connect</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <p>I am a technology enthusiast deeply passionate about software development and robotics. I specialize in building web experiences using HTML and CSS, solving logical problems in Java and Python, and managing data with SQL. Beyond pure code, I actively build robotics projects to bring interactive software and hardware together.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Skills & Technologies</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Java</h3>
+                        <p>Object-oriented programming, data structures, and core software algorithms.</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Python</h3>
+                        <p>Scripting, automation, backend logic, and hardware/robotics integration.</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>SQL</h3>
+                        <p>Relational database management, table architecture, and data queries.</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>HTML & CSS</h3>
+                        <p>Semantic structuring, responsive design, Flexbox, Grid, and UI styling.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <p class="projects-intro">A selection of my HTML and CSS projects.</p>
+                <div class="project-grid">
+
+                    <!-- Project 1: Student Portal -->
+                    <article class="project-card">
+                        <div class="project-info">
+                            <span class="project-number">PROJECT 01</span>
+                            <h3>Student Portal</h3>
+                            <p>A student dashboard featuring a profile table, skills list, weekly class schedule, and a course registration form with input fields, dropdowns, radio buttons, and checkboxes.</p>
+                            <div class="tech-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Forms &amp; Tables</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="projects/student-portal/student-portal.html" class="btn primary-btn" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Flexbox Quest -->
+                    <article class="project-card">
+                        <div class="project-info">
+                            <span class="project-number">PROJECT 02</span>
+                            <h3>Flexbox Quest</h3>
+                            <p>A mini-game interface built with CSS Flexbox, featuring a game header, illustrated game area, player controls, inventory items, and quest progress panels. Includes a responsive layout for smaller screens.</p>
+                            <div class="tech-tags">
+                                <span>HTML</span>
+                                <span>CSS Flexbox</span>
+                                <span>Responsive Design</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="projects/flexbox-quest/index.html" class="btn primary-btn" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p>I am always open to discussing web development, robotics projects, or technology opportunities.</p>
+                
+                <div class="contact-container">
+                    <!-- Direct Contact Cards -->
+                    <div class="contact-info">
+                        <a href="mailto:vishnu.karthikeya@email.com" class="info-card">
+                            <span class="info-label">Email</span>
+                            <span class="info-detail">vishnu.karthikeya@email.com</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/vishnu-karthikeya" target="_blank" rel="noopener noreferrer" class="info-card">
+                            <span class="info-label">LinkedIn</span>
+                            <span class="info-detail">linkedin.com/in/vishnu-karthikeya</span>
+                        </a>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="info-card">
+                            <span class="info-label">GitHub</span>
+                            <span class="info-detail">github.com/vishnukarthikeya</span>
+                        </a>
+                    </div>
+
+                    <!-- Frontend Contact Form -->
+                    <form class="contact-form" action="#" method="POST" onclick="event.preventDefault();">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="4" placeholder="Hi Vishnu, let's connect!" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Vishnu Karthikeya. Built with HTML & CSS ❤️</p>
+    </footer>
+
+</body>
+</html>
